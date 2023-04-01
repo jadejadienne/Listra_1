@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr  1 14:37:07 2023
+
+@author: jadienne
+""""Crie um programa que leia uma palavra do usuário e exiba a primeira letra dessa palavra."
+
+
+def main():
+    palavra = str(input("Digite uma palava: ")) 
+    primeira_letra = palavra[0] 
+    
+    print("Qual é a primeira letra da palvra: ", primeira_letra)
+ 
+
+if __name__ == "__main__":
+    main()
+
+
+
