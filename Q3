@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr  1 14:03:01 2023
+
+@author: jadienne
+""""Crie um programa que leia um número do usuário e exiba a sua raiz quadrada."
+
+
+import math 
+
+def main(): 
+    numero = int(input("digite o numero que vc deseja: ")) 
+    raiz = math.sqrt(numero)
+    print("qual é a raiz quadrada:", raiz)
+  
+
+if __name__=="__main__":
+    main()    
