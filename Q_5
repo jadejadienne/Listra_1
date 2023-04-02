@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr  1 14:42:11 2023
+
+@author: jadienne
+""""Crie um programa que leia um número do usuário e determine se esse número é par ou ímpar."
+
+def main():
+    
+    numero = int(input("Qual numero você deseja: "))
+    
+    if numero % 2 == 0:
+        print("par:", numero)
+    else:
+        print(" impar:", numero)   
+    
+if __name__ == "__main__":
+    main()
+    
+
+    
+
