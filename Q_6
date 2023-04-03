@@ -1,0 +1,14 @@
+def main():
+      rec_numero = []
+
+    for receba in range (1,10):
+        numero = int (input("digite um numero  "))
+
+        rec_numero.append(numero)
+
+    soma = sum(rec_numero) 
+
+    print("mostre a soma deeses numeros", soma)   
+if __name__ == "__main__":
+    main()
+   
