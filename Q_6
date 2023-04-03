@@ -1,14 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr  2 16:16:40 2023
+
+@author: jadienne
+""""Crie um programa que leia uma lista de números do usuário e exiba a soma desses números."
+
 def main():
-      rec_numero = []
+    rec_numero = []
 
-    for receba in range (1,10):
+    for recebe in range(1,10):
         numero = int (input("digite um numero  "))
-
         rec_numero.append(numero)
-
+ 
     soma = sum(rec_numero) 
-
     print("mostre a soma deeses numeros", soma)   
 if __name__ == "__main__":
     main()
+
+
+n()
    
