@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr  3 20:31:02 2023
+Created on Thu Apr  6 20:45:01 2023
 
 @author: jadienne
 """"Crie um programa que leia uma lista de palavras do usuário e exiba a palavra mais longa."
@@ -9,16 +9,16 @@ Created on Mon Apr  3 20:31:02 2023
 def main():
     lista_de_palavras = []
     
-    for recebe_a_lista in range(1, 20):
+    for recebe_a_lista in range(1, 5):
         palavra = input("digite uma palavra:  ")
         lista_de_palavras.append(palavra)
         
-        palavra_mais_longa = ""
-        for palavra in lista_de_palavras:
-           if len(palavra) > len(palavra_mais_longa):
-               palavra_mais_longa = palavra
+    palavra_mais_longa = ""
+    for palavra in lista_de_palavras:
+        if len(palavra) > len(palavra_mais_longa):
+            palavra_mais_longa = palavra
                
-               print("Qual é a palavra mais longa ", palavra_mais_longa)
+    print("Qual é a palavra mais longa ", palavra_mais_longa)
                 
 if __name__ == "__main__":
     main()
