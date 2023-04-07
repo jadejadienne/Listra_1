@@ -1,0 +1,17 @@
+def main():
+    
+    lista_de_numeros = []
+    
+    for ler_lista in range(1,7):
+        numeros = int(input("digite os números: "))
+        lista_de_numeros.append(numeros)
+        
+    soma = sum(lista_de_numeros)
+    média = soma / len(lista_de_numeros)
+    
+    print("mostre a média deeses numeros", média)   
+    
+    
+    
+if __name__ == "__main__":
+ main()    
