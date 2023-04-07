@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  2 16:16:40 2023
-
-@author: jadienne
-""""Crie um programa que leia uma lista de números do usuário e exiba a soma desses números."
+"Crie um programa que leia uma lista de números do usuário e exiba a soma desses números."
 
 def main():
     rec_numero = []
@@ -18,5 +13,4 @@ if __name__ == "__main__":
     main()
 
 
-n()
-   
+
