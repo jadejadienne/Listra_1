@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr  6 20:45:01 2023
 
-@author: jadienne
 """"Crie um programa que leia uma lista de palavras do usuário e exiba a palavra mais longa."
 
 
