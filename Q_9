@@ -1,0 +1,19 @@
+def main():
+   lista_de_numeros = []
+   
+   for ler_a_lista in range(1,9):
+       numero = int (input("digite os numeros que deseja: " ))
+       lista_de_numeros.append(numero)
+       
+   menor_numero_lista = lista_de_numeros[0]
+   for numero in lista_de_numeros:
+       if numero < menor_numero_lista:
+           menor_numero_lista = numero
+           
+   print("qual é o menor numero da lista: ", menor_numero_lista)        
+
+   
+    
+         
+if __name__ == "__main__":
+ main() 
