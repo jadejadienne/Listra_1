@@ -1,0 +1,21 @@
+def main():
+    
+    lista_de_numeros = []
+    
+    for ler_lista in range(1,4):
+        numeros = int(input("digite os números: "))
+        lista_de_numeros.append(numeros)
+ 
+    numeros_pares = []
+    for numeros in lista_de_numeros:
+        if numeros % 2 == 0:
+            numeros_pares.append(numeros)
+            
+    print("Números pares: ", numeros_pares)   
+    
+if __name__ == "__main__":
+ main()    
+
+
+
+
