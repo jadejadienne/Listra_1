@@ -1,0 +1,19 @@
+
+def main():
+   
+    lista_de_palavras = []
+    
+    for ler_lista in range(1, 7):
+        palavra = input("Digite uma palavra: ")
+        lista_de_palavras.append(palavra)
+            
+    letra_a = []
+    for palavra in lista_de_palavras:
+        if palavra.startswith("a") or palavra.startswith("A"):
+            letra_a.append(palavra)
+        
+    print("Palavras q comerçam com a letra a: ", letra_a)
+    
+    
+if __name__ == "__main__":
+    main()
