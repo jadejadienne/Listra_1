@@ -1,0 +1,20 @@
+def main():
+    
+    lista_numeros = []
+    
+    for ler_lista in range(1,6):
+        numeros = int(input("digite o numero que voçê deseja: "))
+        lista_numeros.append(numeros)
+        
+    soma_pares = 0
+    numeros_pares = []
+    for numeros in lista_numeros:
+        if numeros % 2 == 0:
+         soma_pares += numeros
+         numeros_pares.append(numeros)
+    
+    print("numeros pares: ", numeros_pares)    
+    print("soma dos numeros: ", soma_pares)
+     
+if __name__ == "__main__":
+    main()
