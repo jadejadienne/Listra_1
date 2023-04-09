@@ -1,0 +1,22 @@
+def main():
+    
+    lista_numeros = []
+    
+    for ler_lista in range(1,6):
+        numeros = int(input("digite o numero que voçê deseja: "))
+        lista_numeros.append(numeros)
+        
+        
+    lista_numeros.sort()
+    
+    ordem_crecente = []
+    
+    for numeros in lista_numeros:  
+         ordem_crecente.append(numeros)
+    
+    print("numeros em ordem crecente: ", ordem_crecente)    
+
+       
+     
+if __name__ == "__main__":
+    main()
