@@ -6,17 +6,9 @@ def main():
         numeros = int(input("digite o numero que voçê deseja: "))
         lista_numeros.append(numeros)
         
-        
-    lista_numeros.sort(reverse=True)
-  
-    ordem_decrecente = []
+    lista_numeros.sort()
     
-    for numeros in lista_numeros:  
-         ordem_decrecente.append(numeros)
-    
-    print("numeros em ordem crecente: ", ordem_decrecente)          
+    print("numeros em ordem crecente: ", *lista_numeros, sep = " ")          
      
 if __name__ == "__main__":
     main()
-
-
